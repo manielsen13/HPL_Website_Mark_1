@@ -3,6 +3,7 @@
 button {
     padding: 10px;
     border-radius: 25px;
+    border: none;
     background-color: white;
     color: black
 }
@@ -41,28 +42,204 @@ button {
     border-bottom: solid 2px white;
 }
 
+.headerText {
+    font-family: 'Bebas Neue', serif;
+    font-size: 45px;
+  
+    color: black;
+    text-shadow: 2px 2px #A5FC4E;
+}
+
 
 /* PAGE-SPECIFIC ELEMENT STYLES */
 .landingPageWrapper button {
     margin-top: 40px;
 }
 
+.navLinksWrapper a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: none;
+  }
+
+  #selected {
+    border-bottom: solid 3px #A5FC4E;
+  }
+
+  .toggleButton {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+
+  .toggleButton .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    color:white;
+    border-radius: 10px;
+  }
+
+.socialMediaLogosWrapper img {
+    width: 40px;
+    height: 40px;
+}
+
+.card .headerText {
+    font-size: 35px;
+}
+
+.signUpContainer .headerText {
+    color: #A5FC4E;
+    text-shadow: 2px 2px black;
+}
+
+
 
 /* THE CODE BELOW IS DEDICATED TO CONTAINERS*/
 body {
     font-family: 'Open Sans', serif;
     font-size: 18px;
-    background: linear-gradient(grey, black);
+    background-color: black;
   
   }
 
 .landingPageWrapper {
     height: 100vh;
 
-    background: linear-gradient(grey, black);
+    background: linear-gradient(black, ivory);
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.navBar {
+    Font-family: 'Bebas Neue', serif;
+    
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.navLinksWrapper {
+    display: flex;
+    gap: 30px;
+    margin-right: auto;
+    margin-left: 90px;
+
+}
+
+.socialMediaLogosWrapper {
+    display: flex;
+    gap: 30px;
+    padding-right: 30px;
+}
+
+.hplTitleContainer {
+    height: 70vh;
+    
+    background: linear-gradient(grey, black);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tagLineContainer {
+    background-color: ivory;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    gap: 15px;
+    padding: 50px;
+}
+
+.cardListWrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+
+    border: solid 5px #A5FC4E;
+    border-style: ridge;
+
+    width: 220px;
+    height: 220px;
+}
+
+.signUpContainer {
+    
+    display: flex;
+    flex-direction: column;
+
+    gap: 50px;
+
+    padding: 50px;
+
+    background-color: black;
+    color: white;
+
+}
+
+.blockQuoteStyleBox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ 
+    border-left: 5px solid #A5FC4E;
+ 
+    padding-left: 30px;
+ }
+
+ .footer {
+    background-color: ivory;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+
+    padding: 50px;
+ }
+
+ .addressTextsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
+.leftSideWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    
+}
+
+.rightSideWrapper {
+    display: flex;
+    flex-direction: column;
+    
 }
