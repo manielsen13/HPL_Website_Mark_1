@@ -1,0 +1,68 @@
+/* THE CODE BELOW IS DEDICATED TO ELEMENTS*/
+
+button {
+    padding: 10px;
+    border-radius: 25px;
+    background-color: white;
+    color: black
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+.hplTitle, .hplSubtitle {
+    font-family: 'Electrolize', Courier;
+    letter-spacing: 5px;
+    line-height: 1;
+}
+
+.hplTitle {
+    font-size: 200px;
+
+    color: #A5FC4E;
+    filter: drop-shadow(0 2px 7px #A5FC4E);
+}
+
+.hplSubtitle {
+    font-size: 25px;
+
+    color: white;
+    filter: drop-shadow(0 2px 7px white);
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+}
+
+
+/* PAGE-SPECIFIC ELEMENT STYLES */
+.landingPageWrapper button {
+    margin-top: 40px;
+}
+
+
+/* THE CODE BELOW IS DEDICATED TO CONTAINERS*/
+body {
+    font-family: 'Open Sans', serif;
+    font-size: 18px;
+    background: linear-gradient(grey, black);
+  
+  }
+
+.landingPageWrapper {
+    height: 100vh;
+
+    background: linear-gradient(grey, black);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
