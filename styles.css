@@ -152,7 +152,7 @@ body {
 .hplTitleContainer {
     height: 70vh;
     
-    background: linear-gradient(grey, black);
+    background: linear-gradient(ivory, black);
     
     display: flex;
     flex-direction: column;
