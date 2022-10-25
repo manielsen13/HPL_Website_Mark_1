@@ -1,6 +1,8 @@
 /* THE CODE BELOW IS DEDICATED TO ELEMENTS*/
 
 button {
+    font-family: 'Open Sans', serif;
+
     padding: 10px;
     border-radius: 25px;
     border: none;
