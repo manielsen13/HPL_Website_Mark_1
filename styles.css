@@ -324,6 +324,19 @@ body {
     padding: 50px;
 }
 
+.aboutUsContainer {
+    background-color: ivory;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    gap: 35px;
+    padding: 50px;
+}
+
 
 /*Mobile View */
 
