@@ -103,6 +103,40 @@ button {
     border: solid 2px darkgray;
 }
 
+.opportunitiesContainer .headerText {
+    color: #A5FC4E;
+    text-shadow: 2px 2px black;
+
+}
+
+.whatWeOfferContainer .headerText {
+    align-self: center;
+}
+
+.whatWeOfferContainer .blockQuoteStyleBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ 
+    border-left: 5px solid #A5FC4E;
+ 
+    padding-left: 30px;
+ }
+
+.whatWeOfferContainer .blockQuoteStyleBox .headerText {
+    font-size: 30px;
+    align-self: flex-start;
+}
+
+.whatWeOfferContainer .blockQuoteStyleBox button {
+    color: ivory;
+    background-color: black;
+}
+
+.darkFooter .headerText {
+    color: #A5FC4E;
+    text-shadow: 2px 2px black;
+}
 
 
 /* THE CODE BELOW IS DEDICATED TO CONTAINERS*/
@@ -232,6 +266,18 @@ body {
     padding: 50px;
  }
 
+ .darkFooter {
+    background-color: black;
+    color: ivory;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+
+    padding: 50px;
+ }
+
  .addressTextsWrapper {
     display: flex;
     flex-wrap: wrap;
@@ -249,6 +295,33 @@ body {
     display: flex;
     flex-direction: column;
     
+}
+
+.opportunitiesContainer {
+    background-color: black;
+    color: ivory;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    gap: 15px;
+    padding: 50px;
+}
+
+.whatWeOfferContainer {
+    background-color: ivory;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    
+
+    gap: 60px;
+    padding: 50px;
 }
 
 
